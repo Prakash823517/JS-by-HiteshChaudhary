@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+h1{
+    font-family: Playfair Display;
+    /* font weight is used to change the darkness of font(text)  */
+    font-weight: 400;
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-size: 2vw;
+    text-align: center;
+    background-color: aqua;
+}
+p{
+    /* it is used to make spaces between lines */
+    /* line-height: 1; will remove the extra space  */
+    line-height: 1; 
+   /* line-height: 60px;  */
+
+   /* it will not leave any space  */
+    text-align: justify; 
+
+}

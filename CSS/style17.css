@@ -1,0 +1,9 @@
+h2::first-line{
+    color: brown;
+}
+h2::first-letter{
+    font-size: 120px;
+}
+h2::selection{
+    color: green;
+}

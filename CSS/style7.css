@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#box{
+    width: 600px;
+    height: 300px;
+    border: 3px solid black;
+    /* border-radius:120px ;  */
+    /* to make circle shape  */
+    /* border-radius: 50%;  */
+
+    /* to make capsule shape take half of width  */
+    border-radius: 300px;
+    background-color: red;
+}

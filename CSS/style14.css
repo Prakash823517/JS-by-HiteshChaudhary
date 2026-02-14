@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#box{
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(to right, red, green, yellow);
+}
+.main{
+     width: 300px;
+    height: 300px;
+    background: linear-gradient(to right bottom, red, green, yellow);
+}

@@ -1,0 +1,13 @@
+h1:hover{
+    color: red;
+}
+button:active{
+    background-color: aqua;
+}
+
+input:focus{
+    background-color: brown;
+}
+p:nth-child(2n){
+    color: blue;
+}
