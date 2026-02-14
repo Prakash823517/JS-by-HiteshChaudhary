@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: beige;
+    border: 3px solid black;
+}
+.box{
+    width: 350px;
+    height: 80px;
+    background-color: blue;
+    border-radius: 10px;
+    margin: 10px;
+    border: 3px solid red;
+    position: relative;
+    animation-name: rightMovement;
+    /* how long it will take to move  */
+    animation-duration: 5s;
+    /* how many times it move  */
+    animation-iteration-count: 2;
+    /* how long it will stop to start animation  */
+    animation-delay: 2s;
+    /* box will move with constant speed  */
+    animation-timing-function: linear;
+    /* animation-timing-function: ease-in; */
+    /* animation-timing-function: ease-out; */
+    /* animation-timing-function: cubic-bezier(0.1, 0.7, 0.1, 0.6); */
+    /* animation-direction: alternate;
+    animation-direction: alternate-reverse; */
+    /* to stop the box at desiresd location  */
+    animation-fill-mode: forwards;
+    /* animation-fill-mode: backwards; */
+
+
+}
+#box2{
+    width: 350px;
+    height: 80px;
+    background-color: blue;
+    border-radius: 10px;
+    margin: 10px;
+    border: 3px solid red;
+    position: relative;
+    animation-name: leftMovement;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-fill-mode: none;
+}
+#circle{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border: 3px solid yellow;
+    border-radius: 50px;
+    margin: 10px;
+    position: relative;
+    top: 30%;
+    left: 40%;
+    animation-name: circleMovement;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-fill-mode: none;
+}
+
+@keyframes rightMovement{
+    from{
+        top: 0;
+        left: 0;
+    }
+    to{
+        top: 0;
+        left: 1000px;
+    }
+}
+@keyframes leftMovement{
+    from{
+        top: 600px;
+        left: 1100px;
+    }
+    to{
+        top: 600px;
+        left: 0;
+    }
+}
+@keyframes circleMovement{
+    /* 30% means from start 30% of animation completion  */
+    0%{
+        top: 1%;
+        left: 5%;
+    }
+    30%{
+        top: 5%;
+        left: 90%;
+
+    }
+    60%{
+        top: 70%;
+        left: 10%;
+    }
+    100%{
+        top: 75%;
+        left: 90%;
+    }
+}
+

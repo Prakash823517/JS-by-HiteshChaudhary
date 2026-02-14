@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient( 109.6deg,  rgba(163,213,255,1) 11.3%, rgba(4,137,137,1) 86.7% );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 350px;
+    height: 600px;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    gap: 20px;
+    
+}
+.card img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
+.textBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 80%;
+    text-align: center;
+}
+#amountBox{
+    width: 80%;
+    height: 10%;
+    background-color: aquamarine;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.leftBox{
+    width: fit-content;
+    display: flex;
+    gap: 15px;
+    height: 100%;
+    align-items: center;
+}
+.image img{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+} 
+#paymentButton{
+    width: 80%;
+    height: 9%;
+    color: white;
+    background-color: rgb(1,37,93);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.cancelBox a{
+    text-decoration: none;
+    color: rgb(91, 76, 76);
+    font-weight: bold;
+    font-size: large;
+}
+
+
+/* .container{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient( 109.6deg,  rgba(163,213,255,1) 11.3%, rgba(4,137,137,1) 86.7% );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 350px;
+    height: 600px;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    gap: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.card img{
+    width: 350px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.card h2{
+    font-weight: 900;
+}
+.card p{
+    font-size: 1.2rem;
+    text-align: center;
+}
+.icon{
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+}
+.icon img{
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+}
+.icon p{
+    width: 100px;
+}
+.icon a{
+    font-size: 1.2rem;
+    padding-left: 40px;
+}
+.button{
+    color: white;
+    background-color: rgb(2, 37, 97);
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 20px rgb(2,37,97);
+    border-radius: 10px;
+}
+#link a{
+    font-size: 1.5rem;
+    text-decoration: none;
+} */

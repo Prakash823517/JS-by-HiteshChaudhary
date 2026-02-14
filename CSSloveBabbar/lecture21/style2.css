@@ -1,0 +1,30 @@
+.container{
+   margin: 2px;
+   padding: 2px;
+    border: solid black 2px;
+    display: flex;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    border: solid brown 2px;
+    margin: 5px;
+}
+.box1{
+    background-color: aqua;
+}
+.box2{
+    background-color: blue;
+}
+.box3{
+    background-color: aquamarine;
+}
+.box4{
+    background-color: orange;
+}
+@media (max-width: 640px){
+    .container{
+        flex-direction: column;
+    }
+}
+

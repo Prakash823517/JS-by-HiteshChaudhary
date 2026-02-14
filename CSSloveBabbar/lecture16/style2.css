@@ -1,0 +1,16 @@
+
+.box{
+    display: inline;/*now div will act as a inline element */
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    padding: 30px;
+}
+span{
+    border: 2px solid black;
+    width: 800px;
+    height: 200px;
+    margin: 50px;
+    padding: 50px;
+    display: block; /* now span will act as a block element  */
+}

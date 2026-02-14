@@ -1,0 +1,13 @@
+.container{
+    font-size: 10px;
+
+}
+.box{
+    /* em is relative to its parent  */
+    font-size: 10em;
+}
+.firstpara{
+    border: 1px solid black;
+    /* rem is relative to html tag  */
+    font-size: 5rem;
+}

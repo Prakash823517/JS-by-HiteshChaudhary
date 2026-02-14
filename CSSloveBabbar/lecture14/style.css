@@ -1,0 +1,28 @@
+p{
+    /* font-style: italic; */
+    /* font-size: 20px; */
+    font-family: cursive;
+    /* font weight is used to change darkness of text  */
+    font-weight: 600;
+    /* line-height is used to increase the gap between lines  */
+    line-height: 60px;
+}
+.tagesschrift-regular {
+  font-family: "Tagesschrift", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+#firstpara{
+    background-color: yellow;
+    color: brown;
+}
+#secondpara{
+    background-color: rgb(35, 18, 118);
+}
+#thirdpara{
+    background-color: rgba(53, 131, 70, 0.477);
+}
+h2{
+    /* hex value  */
+    background-color: #ff0000;
+}

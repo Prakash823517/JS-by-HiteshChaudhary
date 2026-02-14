@@ -1,0 +1,39 @@
+:root{
+    /* it we define variable in root then it can be access in entire code it  */
+    /* does not have scope problem  */
+    --primary-color: brown; 
+    --custom-width: 330px;
+    
+}
+.container{
+    background-color: beige;
+    height: 650px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    /* variable for color for futute change but it have scope */
+    /* --primary-color: brown;  */
+    /* variable for custom width but it have scope problem  */
+    /* --custom-width: 330px; */
+    background-color: aquamarine;
+    width: var(--custom-width);
+    height: 330px;
+    border: 1px solid var(--primary-color);
+    margin: 5px;
+    padding: 5px;
+    /* box-shadow: 20px 15px 5px 30px brown; */
+    /* box-shadow:-20px 15px  brown; */
+    /* due to inset shadow will come inside box  */
+    /* box-shadow: inset 10px 15px brown;  */
+    /* for multiple shadow  */
+    box-shadow: 10px 15px red, 15px 8px green;  
+
+}
+#head1{
+    text-shadow: 10px 13px 1px white;
+    /* text-shadow: yellow 10px 13px 1px; */
+
+}

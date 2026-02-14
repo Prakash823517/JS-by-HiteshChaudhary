@@ -1,0 +1,64 @@
+.container{
+    background-color: beige;
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    height: 500px;
+    /* flex-direction: row-reverse; */
+
+    /* flex-direction: column; */
+
+    /* if space is not available then  item will come in new line due to wrap  */
+    flex-wrap: wrap;
+
+    /* justify-content: start; */
+    justify-content: center;
+    /* justify-content: end; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+    /* align-items: start; */
+    /* align-items: stretch; */
+    /* align-items: end; */
+
+    /* It only works when there’s extra space in the container. */
+    /* You need to use flex-wrap: wrap or wrap-reverse for it to work 
+    because align-content aligns multiple lines of items, not individual items. */
+    align-content: start;
+    /* align-content: center; */
+    /* align-content: end; */
+}
+.box{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+#box1{
+    background-color: aqua;
+    /* if we give positive order then it will move at right most position  */
+    /* order: 1; */
+    /* flex-shrink: 4; */
+    /* flex-grow: 5; */
+    /* if we want to move a box  */
+    /* align-self: end; */
+}
+#box2{
+    background-color: blue;
+    /* flex-grow: 1; */
+    /* align-self: center; */
+}
+#box3{
+    background-color: orange;
+    /* flex-grow: 1; */
+}
+#box4{
+    background-color: brown;
+    /* flex-grow: 1; */
+    /* negative order elements will come in left most position  */
+    /* order: -1; */
+    /* it will set the item width  */
+    /* flex-basis: 200px; */
+}

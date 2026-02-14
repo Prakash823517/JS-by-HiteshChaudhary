@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h2{
+    background-color: aquamarine;
+    /* border-style: dotted;
+    border-width: 2px;
+    border-color:brown; */
+    /* border: solid brown 3px;  */
+    /* border-radius: 30px;  */
+    /* border-top-left-radius: 20px;  */
+    /* border-bottom: solid yellow 5px;
+    border-left: solid brown 5px; */
+    border: solid black 3px;
+    border-radius: 5px;
+    width: 400px;
+    height: 200px;
+    
+
+}
+/* in span tag height and width does not apply  */
+span{
+    background-color: green;
+    border: solid black 3px;
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;
+}
+.firstpara{
+    padding: 40px;
+    margin: 90px;
+    background-color: blueviolet;
+    border: solid black 3px;
+    border-radius: 5px;
+    /* width: 400px;
+    height: 200px; */
+}
+.secondpara{
+    background-color: red;
+    border: solid black 3px;
+    border-radius: 5px;
+    /* padding-left: 10px;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 40px; */
+    padding: 10px 20px 30px 40px;
+    /* margin: 40px;  */
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* width: 400px;
+    height: 200px;*/
+}
+.thirdpara{
+    background-color: yellow;
+    border: solid black 3px;
+    border-radius: 5px;
+    width: 400px;
+    height: 200px;
+}

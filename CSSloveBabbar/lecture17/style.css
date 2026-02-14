@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    border: 3px solid black;
+}
+img{
+    margin: 10px;
+}
+/* .image2{
+    position: relative;
+    top: 100px;
+    left: 200px;  */
+
+/* absolute positioning is used for overlaping the gap created by absolute property is filled by another element */
+    /* position: absolute;
+    top: 200px;
+ } */
+   
+.container{
+    position: relative;
+    height: 2000px;
+    background-color: aquamarine;
+    /* top: 200px; */
+} 
+.image4{
+    position: fixed;
+}
+.image3{
+    position: sticky;
+    top: 100px;
+}
+.box{
+    background-color:antiquewhite;
+    height: 1000px;
+} 

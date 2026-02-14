@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- internal css  -->
+     <!-- internal and external css apply order wise which apply at the 
+      end will show on web page it means property will be overwrite-->
+     <style>
+        p{
+            /* to make highest priority of internal css use important keyword in property  */
+            /* background-color: blueviolet !important;  */
+            background-color: blueviolet;
+        }
+        h1{
+            color: green;
+        }
+     </style>
+    <link rel="stylesheet" href="style1.css">
+
+</head>
+<body>
+    <!-- inline css has higher priority than internal css and 
+     external css  -->
+    <h1>Welcome to Code Help</h1>
+
+    <!-- inline css  -->
+    <p style="background-color: yellow;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore pariatur voluptatem vero deserunt eos, aliquid veniam doloribus accusamus iusto magni, modi nobis repellendus animi natus dolores quae consectetur. Est, voluptate?</p>
+
+    <p style="color: red;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus explicabo vitae fugit dolores repellat. A illum eius soluta! Nihil recusandae reiciendis id cumque quod quam architecto et voluptatem delectus sequi.</p>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi accusamus explicabo expedita quasi itaque tempore in libero dicta sit consectetur quis, unde magnam laboriosam provident eum saepe molestiae aut rerum incidunt, illo inventore asperiores obcaecati corrupti quia! Temporibus ratione velit quasi sit, praesentium accusamus. Delectus at saepe voluptates doloremque beatae.</p>
+
+    <footer>I am  footer</footer>
+</body>
+</html>

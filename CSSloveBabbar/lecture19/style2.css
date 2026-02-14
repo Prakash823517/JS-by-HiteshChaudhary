@@ -1,0 +1,23 @@
+.item{
+    height: 200px;
+    width: 200px;
+    margin: 2px;
+    background-color: aquamarine;
+    border: 3px solid black;
+    /* border will collapse after float: left  */
+    float: left;
+}
+.container{
+    border: 1px solid black;
+    /* to ignore border collapse property  */
+    overflow: auto;
+}
+#item1{
+    float: right;
+}
+/* #item2{
+    float: right;
+}
+#item3{
+    float: right;
+} */
